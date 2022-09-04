@@ -1,0 +1,19 @@
+html,
+body {
+    background: linear-gradient(180deg, #006D8B 88%, rgba(0, 109, 139, 0.5) 95.83%, rgba(0, 109, 139, 0.390625) 100%) no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.signin {
+    width: 100%;
+    max-width: 380px;
+    margin: auto;
+    margin-top: 15%;
+}

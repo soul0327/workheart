@@ -1,0 +1,387 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Adamina';
+    font-size: 18px;
+}
+
+/* 共用的自訂class */
+.borderR15 {
+    border-radius: 15px !important;
+}
+
+.borderBlueSapphire {
+    border-bottom: 3px solid #7d46b1;
+}
+
+.borderSunglow {
+    border-bottom: 3px solid #FFCB00;
+}
+
+.blueSapphireColor {
+    background-color: #162036 !important;
+}
+
+.carollnaBlueColor {
+    background-color: #509ACC !important;
+}
+
+.sunglowColor {
+    background-color: #FFCB00 !important;
+}
+
+.culturedColor {
+    background-color: #F2F2F2 !important;
+}
+
+.shandowDark {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.textSize16 {
+    font-size: 16px;
+}
+
+.textSize18 {
+    font-size: 18px;
+}
+
+.textSize24 {
+    font-size: 24px;
+}
+
+.textSize25 {
+    font-size: 25px;
+}
+
+.textSize30 {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.textSize32 {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.textSize40 {
+    font-size: 40px;
+}
+
+.red {
+    color: red;
+}
+
+.hoverPointer {
+    cursor: pointer;
+}
+
+.marginTopBottom1_5 {
+    margin: 1.5rem 0;
+}
+
+.buttonPaddingTopBottom {
+    padding-top: 1.5% !important;
+    padding-bottom: 1.5% !important;
+}
+
+/* 共用的banner背景圖片 */
+#bannerJumbotronBackgroundImg {
+    background: url("../images/bannerJumbotronBackgroundImg.jpg") center center no-repeat;
+    background-size: cover;
+    padding-bottom: 28%;
+}
+
+
+
+/* 
+
+功能導覽列
+
+ */
+
+/* 登入與註冊按鈕、登出與設定按鈕 */
+.loginRegisterButtonDiv button,
+.signOutSettingButtonDiv button,
+.loginRegisterButtonDiv a,
+.signOutSettingButtonDiv a {
+    border: none;
+    font-weight: 700;
+}
+
+.loginRegisterButtonDiv button:hover,
+.signOutSettingButtonDiv button:hover,
+.loginRegisterButtonDiv a:hover,
+.signOutSettingButtonDiv a:hover {
+    background-color: #FFCB00;
+}
+
+
+
+/*
+ 首 頁
+   1 
+*/
+
+/* Jumbotron背景圖片 */
+#jumbotronBackgroundImg {
+    background: url("../images/JumbotronBackgroundImg.png") center center fixed no-repeat;
+    background-size: cover;
+}
+
+#jumbotronBackgroundP p {
+    margin-bottom: 0;
+}
+
+#mainJoinButton:hover {
+    background-color: #509ACC !important;
+    font-weight: 700;
+}
+
+#jumbotronBackgroundP p:last-child {
+    padding-right: 265px;
+}
+
+
+
+/*
+ 首 頁
+   2 
+*/
+
+/* 小標題線條 */
+#subtitleLine::after {
+    content: "";
+    width: 80%;
+    height: 3px;
+    display: inline-block;
+    background: #509ACC;
+    margin: 4px 10px;
+}
+
+/* 參加競賽的獎勵和收穫 */
+#headline {
+    font-weight: 400;
+}
+
+#mainTwo ul li {
+    padding-bottom: 2%;
+    list-style-image: url("../images/tick.png");
+}
+
+
+
+/*
+ 首 頁
+   3 
+*/
+
+#yellowBlueBackgroundImg {
+    background: url("../images/yellowBlueBackground.png") center center no-repeat;
+    background-size: cover;
+    height: 1056px;
+}
+
+#mainThreeImgDiv {
+    margin: 0 13%;
+}
+
+#mainThreeImgDiv div:nth-child(even) {
+    padding-top: 10%;
+}
+
+#mainThreeTextDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mainThreeTextDiv div {
+    background-color: #fff;
+    font-size: 27px;
+    font-weight: bold;
+    border-radius: 25px;
+}
+
+#mainThreeTextDiv p {
+    margin-top: 20px;
+    font-size: 27px;
+    font-weight: 700;
+}
+
+#mainThreeTextDiv a {
+    font-size: 23px;
+    color: #006D8B;
+}
+
+
+
+/*
+ 首 頁
+   4 
+*/
+
+#blueBackgroundImg {
+    background: url("../images/blueBackground.png") center center no-repeat;
+    background-size: cover;
+    height: 968px;
+    margin: 0 auto;
+}
+
+#subtitleLineQuestion::after {
+    content: "";
+    width: 88%;
+    height: 3px;
+    display: inline-block;
+    background: #509ACC;
+    margin: 4px 10px;
+}
+
+.mainFourQuestionBackground {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+
+/*
+ 首 頁
+   5 
+*/
+
+#blueYellowBackgroundImg {
+    background: url("../images/blueYellowBackground.png") center center no-repeat;
+    background-size: cover;
+    height: 1121px;
+    margin: 0 auto;
+}
+
+#blueYellowBackgroundImg form {
+    border-radius: 20px;
+}
+
+#blueYellowBackgroundImg form label {
+    color: #000;
+}
+
+#blueYellowBackgroundImg form input,
+#blueYellowBackgroundImg form textarea {
+    border: none;
+    border-radius: 15px;
+}
+
+
+
+/*
+
+Footer
+
+*/
+
+#footerNchuLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer ul li a {
+    text-decoration: none;
+}
+
+@media screen and (max-width:750px) {
+    #jumbotronBackgroundP p:last-child {
+        padding-right: 0px !important;
+    }
+
+    #jumbotronBackgroundP p {
+        font-size: 17px;
+    }
+
+    .loginRegisterButtonDiv,
+    .signOutSettingButtonDiv {
+        margin: auto;
+    }
+
+    .shandowDark,
+    .shandowDark h1 {
+        font-size: 30px;
+    }
+
+    /* #nchuLogoDiv img {
+        margin-right: 5rem;
+    } */
+
+    #yellowBlueBackgroundImg,
+    #blueYellowBackgroundImg {
+        height: auto;
+    }
+
+
+    /*
+    首 頁
+      3 
+    */
+        
+    #mainThreeImgDiv div:nth-child(odd) {
+        padding-top: 10%;
+    }
+    
+    
+    /*
+    首 頁
+      4 
+    */
+
+    #blueBackgroundImg {
+        height: 750px;
+    }
+
+}
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+
+ul.timeline:before {
+    content: ' ';
+    background: #006D8B;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 4px;
+    height: 100%;
+    z-index: 400;
+}
+
+ul.timeline > li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+.timeContext,
+ul.timeline li p:nth-child(1) {
+    color:#006D8B;
+}
+
+ul.timeline > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #22c0e8;
+    left: 17px;
+    width: 1.5rem;
+    height: 1.5rem;
+    z-index: 400;
+}
+
+ul.timeline > li:nth-child(1):before {
+    background: #22c0e8;
+}
+
+#magicLogo {
+    height :100vh;
+    background-color:     rgba(1,1,1,0.6);
+}

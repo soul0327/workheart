@@ -1,0 +1,36 @@
+/*
+
+首頁-3 修改(後台)的樣式
+
+*/
+
+#backendIndexThreeUpdateLeft,
+#backendIndexThreeUpdateRight,
+#backendIndexThreeUpdateBottom {
+    border: 1px solid #006D8B;
+    box-sizing: border-box;
+    border-radius: 20px;
+    height: auto;
+    width: 100%;
+    margin: auto;
+}
+
+#backendIndexThreeUpdateBottom {
+    width: 70%;    
+}
+
+#backendIndexThreeUpdateLeft div:nth-child(1),
+#backendIndexThreeUpdateRight div:nth-child(1),
+#backendIndexThreeUpdateBottom div:nth-child(1) {
+    border-radius: 18px 18px 0 0;
+}
+
+@media screen and (max-width:750px) {
+
+    #backendIndexThreeUpdateLeft,
+    #backendIndexThreeUpdateRight,
+    #backendIndexThreeUpdateBottom {
+        margin: 0 auto;
+        width: auto;
+    }
+}

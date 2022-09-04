@@ -1,0 +1,25 @@
+/*
+
+ 首頁-1(後台)的樣式
+
+*/
+
+#backendIndexOneForm {
+    border: 1px solid #006D8B;
+    box-sizing: border-box;
+    border-radius: 20px;  
+    height: auto;
+    width: 85%;
+    margin: 0;
+}
+
+#backendIndexOneForm div:nth-child(1) {
+    border-radius: 18px 18px 0 0;
+}
+
+@media screen and (max-width:750px) {
+    #backendIndexOneForm {
+        margin: 0 auto;        
+        width: auto;
+    }    
+}

@@ -1,0 +1,25 @@
+/*
+
+ 登入的樣式
+
+*/
+
+#formLogin {
+    border: 1px solid #006D8B;
+    box-sizing: border-box;
+    border-radius: 20px;  
+    height: 480px;
+    width: 55%;
+    margin: auto;
+}
+
+#formLogin div:nth-child(1) {
+    border-radius: 18px 18px 0 0;
+}
+
+@media screen and (max-width:750px) {
+    #formLogin {
+        margin: 0 auto;        
+        width: auto;
+    }    
+}

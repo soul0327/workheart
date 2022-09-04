@@ -1,0 +1,34 @@
+/* 
+
+dataTables css
+
+*/
+
+div.dataTables_wrapper div.dataTables_length select {
+    width: 45% !important;
+}
+
+.sorting_asc,
+.sorting,
+.sorting_desc {
+  background-image: none !important;
+}
+
+.testTable {
+  margin: 500px;
+}
+
+.pagination ul li,
+.paginate_button {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.page-item.active .page-link {
+  background-color: #509ACC;
+  border-color: #509ACC;
+}
+
+.paginate_button:hover {
+  background-color: #509ACC !important;
+}

@@ -1,0 +1,30 @@
+/*
+
+最新消息 (後台)的樣式
+
+*/
+
+#backendNewsForm {
+    border: 1px solid #006D8B;
+    box-sizing: border-box;
+    border-radius: 20px;
+    height: auto;
+    width: 100%;
+    margin: auto;
+}
+
+#backendNewsForm {
+    width: 70%;
+}
+
+#backendNewsForm div:nth-child(1) {
+    border-radius: 18px 18px 0 0;
+}
+
+@media screen and (max-width:750px) {
+
+    #backendNewsForm {
+        margin: 0 auto;
+        width: auto;
+    }
+}
