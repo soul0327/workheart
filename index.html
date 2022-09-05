@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./lib/aos/aos.css">
+
+
 </head>
 
 <body>
@@ -63,9 +66,9 @@
         <div class="row" id="">
             <div id="magicLogo">
                 <div class="col-sm-12 text-white text-center mb-2">
-                    <h1 class="shandowDark" style="padding-top: 15%;">魔力寶貝 永恆初心</h1>
+                    <h1 data-aos="zoom-in-down" class="shandowDark" style="padding-top: 15%;">魔力寶貝 永恆初心</h1>
                 </div>
-                <div class="col-sm-12 text-white text-center mb-3 shandowDark">
+                <div data-aos="zoom-in-down" class="col-sm-12 text-white text-center mb-3 shandowDark">
                     <h1></h1>
                     <h1 class="">走心盃 職業首席大賽</h1>
                 </div>
@@ -74,7 +77,7 @@
                     <p class="text-center"></p>
                     <p class="text-left"></p>
                 </div>
-                <div class="text-white text-center mt-3">
+                <div data-aos="zoom-out-up" class="text-white text-center mt-3">
                     <a class="btn text-black blueSapphireColor borderR15"
                         href="https://docs.google.com/forms/d/e/1FAIpQLSfQnsEIUi2qO5f0UNOMjTY9jq8mQUhab7iPeKUfYdG9giGE2g/viewform"
                         id="mainJoinButton">立即報名</a>
@@ -85,11 +88,11 @@
         </div>
     </div>
     <!-- 注意事項 -->
-    <div class="container borderSunglow text-left mt-5">
+    <div data-aos="zoom-out-up" class="container borderSunglow text-left mt-5">
         <h3 class="textSize30">主辦叮嚀</h3>
     </div>
 
-    <div class="container mt-3">
+    <div data-aos="zoom-out-up" class="container mt-3">
         <p class="py-2">各位，我真的太喜歡魔力了，所以逼著處女最可愛的阿吹做了這個網站（此處女為星座勿戰伺服）
 
             到時候我還會把我之前辦的賽事回顧放上去，我下次辦的時候，這次賽事也可以被回顧！！
@@ -104,11 +107,11 @@
             快點手刀報名起來吧！</p>
     </div>
     <!-- 時程規劃 -->
-    <div class="container borderSunglow text-left mt-5">
+    <div data-aos="zoom-out-up" class="container borderSunglow text-left mt-5">
         <h3 class="textSize30">時程規劃</h3>
     </div>
 
-    <div class="container">
+    <div data-aos="zoom-out-up" class="container">
         <div class="container mt-3 mb-3">
             <div class="row">
                 <div class="col-md-7">
@@ -146,13 +149,13 @@
     </div>
     <!-- 首頁-2 -->
     <div class="container mb-5" id="mainTwo">
-        <div class="row mt-5">
+        <div data-aos="flip-up" class="row mt-5">
             <h2 class="col-sm-12 mt-3" id="headline">Join the Contest</h2>
             <div class="col-sm-12 textSize24" id="subtitleLine">賽事的獎勵</div>
         </div>
 
         <!-- 獎盃 -->
-        <div class="row mt-5 ml-4">
+        <div data-aos="flip-up" class="row mt-5 ml-4">
             <div class="col-sm-2 ml-4 mt-4 text-center">
                 <svg width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <circle cx="75" cy="75" r="71" stroke="#509ACC" stroke-width="8" />
@@ -179,7 +182,7 @@
         </div>
 
         <!-- 123 -->
-        <div class="row mt-5 ml-4">
+        <div data-aos="flip-up" class="row mt-5 ml-4">
             <div class="col-sm-2 ml-4 mt-4 text-center">
                 <svg width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <circle cx="75" cy="75" r="71" stroke="#509ACC" stroke-width="8" />
@@ -324,13 +327,13 @@
 
     <!-- 首頁-4 -->
     <div class="container-fluid" id="blueBackgroundImg">
-        <div class="container mb-5">
+        <div data-aos="flip-up" class="container mb-5">
             <div class="row mt-5">
                 <h2 class="col-sm-12 mt-3" id="headline">Question</h2>
                 <div class="col-sm-12 textSize24" id="subtitleLineQuestion">常見的問題</div>
             </div>
         </div>
-        <div class="container mainFourQuestionBackground p-3">
+        <div data-aos="flip-up" class="container mainFourQuestionBackground p-3">
             <div>
                 待補充
                 <button id="mainFourArrow" style="float: right; padding: 0; margin-bottom: 5%;" type="button"
@@ -433,6 +436,13 @@
     <script src="./lib/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="./lib/bootstrap/js/jquery-3.6.0.js"></script>
     <script src="./js/index.js"></script>
+    <script src="./lib/aos/aos.js"></script>
+    <script>
+        $(function () {
+            AOS.init();
+        });
+    </script>
+
 </body>
 
 </html>
