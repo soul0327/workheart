@@ -21,7 +21,7 @@ body {
 }
 
 .blueSapphireColor {
-    background-color: #162036 !important;
+    background-color: #F7D5DF !important;
 }
 
 .carollnaBlueColor {
@@ -451,5 +451,12 @@ ul.timeline>li:nth-child(1):before {
         height: 100vh;
         background-color: rgba(1, 1, 1, 0.6);
     }
+
+}
+
+.navfont {
+    font-weight: 700;
+    font-family: '微軟正黑體';
+    color: #2f2929 !important;
 
 }
