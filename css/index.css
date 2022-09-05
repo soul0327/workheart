@@ -127,9 +127,12 @@ body {
 
 /* Jumbotron背景圖片 */
 #jumbotronBackgroundImg {
-    background: url("../images/164968061662_o.jpg") center center fixed no-repeat;
+    background-image: url("../images/164968061662_o.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
     background-size: cover;
-    max-width: 100vw
+
 }
 
 #jumbotronBackgroundP p {
@@ -389,6 +392,10 @@ ul.timeline>li:nth-child(1):before {
     background-color: rgba(1, 1, 1, 0.6);
 }
 
+.backgroungArea {
+    display: none;
+}
+
 @media screen and (min-width: 1200px) and (max-width: 1300px) {
     #magicLogo {
         padding-top: 15VH;
@@ -400,9 +407,14 @@ ul.timeline>li:nth-child(1):before {
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
 
+
+
     /* 共用的banner背景圖片 */
     #jumbotronBackgroundImg {
-        background: url("../images/164968061662_o2.jpg") center center fixed no-repeat;
+        background-image: url("../images/164968061662_o2.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
         background-size: cover;
 
     }
@@ -421,7 +433,10 @@ ul.timeline>li:nth-child(1):before {
 
 @media screen and (max-width: 768px) {
     #jumbotronBackgroundImg {
-        background: url("../images/164968061662_o2.jpg") center center fixed no-repeat;
+        background-image: url("../images/164968061662_o2.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
         background-size: cover;
 
 
