@@ -403,7 +403,8 @@ ul.timeline>li:nth-child(1):before {
     /* 共用的banner背景圖片 */
     #jumbotronBackgroundImg {
         background: url("../images/164968061662_o2.jpg") center center fixed no-repeat;
-        max-width: 100vw
+        background-size: cover;
+
     }
 
     #bannerJumbotronBackgroundImg {
@@ -421,7 +422,9 @@ ul.timeline>li:nth-child(1):before {
 @media screen and (max-width: 768px) {
     #jumbotronBackgroundImg {
         background: url("../images/164968061662_o2.jpg") center center fixed no-repeat;
-        max-width: 100vw
+        background-size: cover;
+
+
     }
 
     #bannerJumbotronBackgroundImg {
